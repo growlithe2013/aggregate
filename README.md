@@ -11,3 +11,6 @@ follow [url] follow a feed that already exists in the feeds database
 following - shows what feeds you are following
 unfollow [url] - remove yourself as a follower of a feed
 browse [number of feeds](optional, default 2) - retrieves the newest # of articles, based on the input given, default to 2 on no input, from all the feeds you are subscribed to
+
+
+requires postgres as well as go installed on your system
